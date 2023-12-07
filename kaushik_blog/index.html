@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog - Kaushik</title>
+
+
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.min.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body class="light-theme">
+
+  <!--
+    - #HEADER
+  -->
+
+  <header>
+
+    <div class="container">
+
+      <nav class="navbar">
+
+        <div class="btn-group">
+
+          <button class="theme-btn theme-btn-mobile light">
+            <ion-icon name="moon" class="moon"></ion-icon>
+            <ion-icon name="sunny" class="sun"></ion-icon>
+          </button>
+
+          <button class="nav-menu-btn">
+            <ion-icon name="menu-outline"></ion-icon>
+          </button>
+
+        </div>
+
+        <div class="flex-wrapper">
+
+          <ul class="desktop-nav">
+
+            <li>
+              <a href="#" class="nav-link">Home</a>
+            </li>
+
+            <li>
+              <a href="#" class="nav-link">About Me</a>
+            </li>
+
+            <li>
+              <a href="#" class="nav-link">Contact</a>
+            </li>
+
+          </ul>
+
+          <button class="theme-btn theme-btn-desktop light">
+            <ion-icon name="moon" class="moon"></ion-icon>
+            <ion-icon name="sunny" class="sun"></ion-icon>
+          </button>
+
+        </div>
+
+        <div class="mobile-nav">
+
+          <button class="nav-close-btn">
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+
+          <div class="wrapper">
+
+            <p class="h3 nav-title">Main Menu</p>
+
+            <ul>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Home</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#" class="nav-link">About Me</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#" class="nav-link">Contact</a>
+              </li>
+            </ul>
+
+          </div>
+
+          <div>
+
+            <p class="h3 nav-title">Topics</p>
+
+            <ul>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Database</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#" class="nav-link">Accessibility</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#" class="nav-link">Web Performance</a>
+              </li>
+            </ul>
+
+          </div>
+
+        </div>
+
+      </nav>
+
+    </div>
+
+  </header>
+
+
+
+
+
+  <main>
+
+    <!--
+      - #HERO SECTION
+    -->
+
+    <div class="hero">
+
+      <div class="container">
+
+        <div class="left">
+
+          <h1 class="h1">
+            Hi, I'm <b>Kaushik&nbsp;wagh</b>.
+            <br>Software Engineer
+          </h1>
+
+          <p class="h3">
+            My Blogs...
+          </p>
+
+          <div class="btn-group">
+            <a href="https://kaushikwagh.dorik.io/" class="btn btn-primary">Portfolio</a>
+            <a href="about.html" class="btn btn-secondary">About Me</a>
+
+          </div>
+
+        </div>
+
+        <div class="right">
+
+          <div class="pattern-bg"></div>
+          <div class="img-box">
+            <img src="./assets/images/hero.png" alt="Kaushik wagh" class="hero-img">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+
+
+    <div class="main">
+
+      <div class="container">
+
+        <!--
+          - BLOG SECTION
+        -->
+
+        <div class="blog">
+
+          <h2 class="h2">Latest Blog Post</h2>
+
+          <div class="blog-card-group">
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./assets/images/blog-1.png" alt="Top 10 Libraries"
+                  width="250" class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">Java</button>
+
+                <h3>
+                  <a href="#" class="h3">
+                    Top 10 Libraries 
+                  </a>
+                </h3>
+
+                <p class="blog-text">
+                    1. Java Standard Libraries  2. Mockito [Unit Testing Library]
+                    3. JUnit [Unit Testing Library] 4. Apache Commons [General-Purpose Library]
+                    5. Google Guava [General-Purpose Library] 6. Jackson [JSON Parsing Library]
+                    7. HttpClient [HTTP Library] 8. Log4j 2 [Logging Library]
+                    9. DBCP [Database Connection Pool Library] 10. JAXB [XML Parsing Library]
+
+                </p>
+
+                <div class="wrapper-flex">
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Kauhsik wagh</a>
+
+                    <p class="text-sm">
+                      <time datetime="2022-01-17">Nov 25, 2023</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT3M">3 min</time>
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./assets/images/blog-2.png" alt="React Native" width="250"
+                  class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">React Native</button>
+
+                <h3><a href="" class="h3">Create native apps for Android, iOS, and more using React</a></h3>
+
+                <p class="blog-text">
+                    React Native combines the best parts of native development with React, a best-in-class JavaScript library for building user interfaces.
+                    Use a little—or a lot. You can use React Native today in your existing Android and iOS projects or you can create a whole new app from scratch.
+
+                <div class="wrapper-flex">
+
+                  
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Kaushik wagh</a>
+
+                    <p class="text-sm">
+                      <time datetime="2021-12-10">Nov 26, 2023</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT2M">2 min</time>
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./assets/images/blog-3.png" alt="Spring Framework" width="250"
+                  class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">Spring Framework</button>
+
+                <h3><a href="" class="h3">What Spring can do</a></h3>
+
+                <p class="blog-text">
+                    The Spring Framework is an application framework and inversion of control container for the Java platform. The framework's core features can be used by any Java application, but there are extensions for building web applications on top of the Java EE platform.
+                </p>
+
+                <div class="wrapper-flex">
+
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Kaushik wagh</a>
+
+                    <p class="text-sm">
+                      <time datetime="2021-11-28">Nov 27, 2023 </time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT4M">4 min</time>
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./assets/images/blog-4.png" alt="AngularJS"
+                  width="250" class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">Angular JS</button>
+
+                <h3><a href="" class="h3">Why AngularJS ?</a></h3>
+
+                <p class="blog-text">
+                    HTML is great for declaring static documents, but it falters when we try to use it for declaring dynamic views in web-applications. AngularJS lets you extend HTML vocabulary for your application. The resulting environment is extraordinarily expressive, readable, and quick to develop.
+                </p>
+
+                <div class="wrapper-flex">
+
+                
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Kaushik wagh</a>
+
+                    <p class="text-sm">
+                      <time datetime="2021-11-20">Nov 28, 2023</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT4M">4 min</time>
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./assets/images/blog-5.png"
+                  alt="Greenbone" width="250"
+                  class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">Greenbone</button>
+
+                <h3><a href="" class="h3">security testing tool</a></h3>
+
+                <p class="blog-text">
+                    Used to identify vulnerabilities in computer networks. It is designed to simulate attacks on network protocols and services, allowing administrators to assess the security of their systems. Greenbone is often used in conjunction with other security tools and can be configured to perform various kinds of vulnerability scanning, including port scanning, application scanning, and system scanning. It supports a wide range of protocols and services, making it a versatile tool for network security testing.
+                </p>
+
+                <div class="wrapper-flex">
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Kaushik Wagh</a>
+
+                    <p class="text-sm">
+                      <time datetime="2021-11-10">Nov 29, 2023</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT3M">3 min</time>
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+
+
+            
+
+          </div>
+          <a href="https://medium.com/@kaushikwagh21">
+            <button class="btn load-more">Load More</button>
+          </a>
+          
+
+        </div>
+
+
+
+
+
+        <!--
+          - ASIDE
+        -->
+
+        <div class="aside">
+
+          <div class="topics">
+
+            <h2 class="h2">Topics</h2>
+
+            <a href="#" class="topic-btn">
+              <div class="icon-box">
+                <ion-icon name="server-outline"></ion-icon>
+              </div>
+
+              <p>MERN</p>
+            </a>
+
+            <a href="#" class="topic-btn">
+              <div class="icon-box">
+                <ion-icon name="accessibility-outline"></ion-icon>
+              </div>
+
+              <p>Accessibility</p>
+            </a>
+
+            <a href="#" class="topic-btn">
+              <div class="icon-box">
+                <ion-icon name="rocket-outline"></ion-icon>
+              </div>
+
+              <p>Web Performance</p>
+            </a>
+
+          </div>
+
+          <div class="tags">
+
+            <h2 class="h2">Tags</h2>
+
+            <div class="wrapper">
+
+              <button class="hashtag">#react-native</button>
+              <button class="hashtag">#nodejs</button>
+              <button class="hashtag">#angularjs</button>
+              <button class="hashtag">#mobility</button>
+              <button class="hashtag">#greenbone</button>
+              <button class="hashtag">#security tool</button>
+              <button class="hashtag">#performance</button>
+
+            </div>
+
+          </div>
+
+          <div class="contact">
+
+            <h2 class="h2">Let's Talk</h2>
+
+            <div class="wrapper">
+
+              <p>
+                how I can help your overcome problems? Let us have a
+                conversation.
+              </p>
+
+              <ul class="social-link">
+
+                <li>
+                  <a href="https://www.linkedin.com/in/kaushik-wagh-r-a64704228/" class="icon-box discord">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="https://github.com/Kaushikwagh" class="icon-box twitter">
+                    <ion-icon name="logo-github"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="https://medium.com/@kaushikwagh21" class="icon-box facebook">
+                    <ion-icon name="logo-medium"></ion-icon>
+                  </a>
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>
+
+          <div class="Email">
+
+            <h2 class="h2">Mail-me</h2>
+
+            <div class="wrapper">
+
+              <p>
+                Kaushikwagh21@gmail.com
+              </p>
+
+              <form action="https://mail.google.com/mail/u/0/#inbox">
+
+                <button type="submit" class="btn btn-primary">Mail</button>
+              </form>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </main>
+
+
+
+
+
+  <!--
+    - #FOOTER
+  -->
+
+  <footer>
+
+    <div class="container">
+
+      <div class="wrapper">
+
+        
+
+        <p class="footer-text">
+            "Hello, I'm Kaushik, a Security | Software Engineer with a Bachelor's Degree in ISE. Currently contributing my expertise at a leading finance company within Cred. Passionate about cybersecurity and crafting innovative solutions in the tech landscape. Open to collaboration and eager to connect!"        </p>
+
+      </div>
+
+      <div class="wrapper">
+
+        <p class="footer-title">Linkedin</p>
+
+        <ul>
+
+          <li>
+            <a href="https://www.linkedin.com/in/kaushik-wagh-r-a64704228/" class="footer-link">Kaushik-wagh</a>
+          </li>
+
+
+        </ul>
+
+      </div>
+
+      <div class="wrapper">
+
+        <p class="footer-title">Github</p>
+
+        <ul>
+
+          <li>
+            <a href="https://github.com/Kaushikwagh" class="footer-link">Kaushikwagh</a>
+
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+    <p class="copyright">
+       <a href="https://kaushikwagh.dorik.io/">Kaushik Wagh</a>
+    </p>
+
+  </footer>
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.min.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
